@@ -1,15 +1,23 @@
 .table{
     width: 90%; 
     text-align: center; 
-    margin:60px 10px 10px 50px;
+    margin:30px 10px 10px 50px;
     font-size: 20px;
 
 }
 .btn{
+    height: 40px;
+    width: 130px;
     margin-left: 550px;
     margin-top: 20px;
     border: solid black 2px;
     border-radius: 30px;
-    padding: 5px;
+    padding: 10px;
     font-size: 15px;
+    color: white;
+    background-color: blue;
+}
+.btn:hover{
+    font-size: 18px;
+    background-color: darkblue;
 }
