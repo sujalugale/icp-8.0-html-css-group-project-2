@@ -21,3 +21,16 @@
     font-size: 18px;
     background-color: darkblue;
 }
+.h{
+    text-align: center;
+     color:blue;
+      margin-left:300px; 
+      display: inline; 
+      font-size: 50px;
+}
+.th{
+    font-size: 20px;
+     color:white;
+      background-color: blue;
+       padding: 10px;
+}
