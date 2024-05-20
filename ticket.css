@@ -41,13 +41,23 @@
       background-color: blue;
        padding: 10px;
 }
-.li{
-    padding: 10px;
-}
+
 body{
     
     background-image: url('./images/swimming-pool-4879378.webp');
     background-size: cover;
     background-position: center;
 
+}
+.p{
+    padding: 10px;
+}
+.div{
+    text-align: center;
+     background-color: aliceblue;
+     font-size: 20px;
+      font-style: oblique ; 
+      margin:50px 250px 10px 250px;
+      background-color:rgb(175, 232, 253); 
+      border:2px solid black;
 }
