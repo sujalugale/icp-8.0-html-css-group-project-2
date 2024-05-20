@@ -61,3 +61,9 @@ body{
       background-color:rgb(175, 232, 253); 
       border:2px solid black;
 }
+.img{
+    width: 100px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
