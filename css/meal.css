@@ -5,5 +5,23 @@
       padding: 10px; 
       margin-left: 50px;
       border-radius: 30px;
+      margin-top: 50px;
+      box-shadow: 0px 10px 10px 0px blue;
       
+}
+.btn{
+    height: 40px;
+    width: 130px;
+    margin-left: 550px;
+    margin-top: 50px;
+    border: solid black 2px;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background-color: blue;
+}
+.btn:hover{
+    font-size: 18px;
+    background-color: darkblue;
 }
