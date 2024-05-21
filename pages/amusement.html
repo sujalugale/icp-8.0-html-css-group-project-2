@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rides Availability  at wet and Joy Amusement Park </title>
+    <style>
+
+table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        a {
+    text-decoration: none;
+    color: black;
+  }
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 98.8%;
+    padding: 10px 10px;
+    
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+  }
+  .header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    backdrop-filter: blur(50px);
+    z-index: -1;
+  }
+  .header-img1 {
+    height: 50px;
+    width: 55%;
+    margin-left: 10px;
+    margin-top: 0px;
+   
+}
+  
+  .navbar a {
+    font-size: 25px;
+    color: blue;
+    text-decoration: none;
+    font-weight: 520;
+    margin-left: 40px;
+    
+  }
+  #check {
+    display: none;
+  }
+  .menu-bar {
+    font-size: 50px;
+    color: #fff;
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    display: none;
+  }
+  
+  @media screen and (max-width: 768px) 
+  {
+     
+      .header{
+          width: 98%;
+         height: 40px;
+      }
+      .header-img1{
+        margin-top: 20px;
+
+      }
+      .menu-bar {
+        margin-top: 20px;
+    }
+    }
+  @media screen and (max-width: 1025px) {
+    .menu-bar {
+      display: inline-flex;
+      margin-right: 10PX;
+      
+     
+    }
+    #check:checked ~ .menu-bar #menu-icon {
+      display: none;
+    }
+    .menu-bar #close-icon {
+      display: none;
+    }
+    #check:checked ~ .menu-bar #close-icon {
+      display: block;
+    }
+    .navbar {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 99%;
+      height: 0;
+      background-color: #FFDEE9;
+      background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+      -webkit-backdrop-filter: blur(5px);
+      backdrop-filter: blur(5px);
+      overflow: hidden;
+      transition: 0.5s ease;
+    }
+    #check:checked ~ .navbar {
+      height: 250px;
+    }
+    .navbar a {
+      display: block;
+      font-size: 28px;
+      margin: 15px 0;
+      text-align: center;
+      color: black;
+    }
+  }
+    </style>
+</head>
+<body>
+    <div >
+       
+        <header class="header">
+            <a href="./index.html">
+                <img  src="./images\header-img.png" alt="header image" class="header-img1">
+            </a>
+            <input type="checkbox" id="check" />
+            <label for="check" class="menu-bar">
+              <i class="bx bx-menu" id="menu-icon"></i>
+              <i class="bx bx-x" id="close-icon"></i>
+            </label>
+
+       
+        <nav class="navbar">
+            <a href="#" class="waterpark-page">WATERPARK</a>
+            <a href="#" class="amusment-page">AMUSEMENT PARK</a>
+            <a href="#" class="tickets-page">TICKETS</a>
+            <a href="#" class="offers-page">OFFERS</a>
+            <button class="btn">BOOK</button>
+            
+          </nav>
+         
+          </header>
+
+       
+
+    </div>
+
+ <h1>Rides Availability at Wet and Joy Amusement Park</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Ride Name</th>
+                <th>Available</th>
+                <th>Operating Hours</th>
+                <th>Notes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Wave Pool</td>
+                <td>Yes</td>
+                <td>10:00 AM - 6:00 PM</td>
+                <td>Life jackets required for children</td>
+            </tr>
+            <tr>
+                <td>Lazy River</td>
+                <td>Yes</td>
+                <td>10:00 AM - 5:00 PM</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Roller Coaster</td>
+                <td>No</td>
+                <td>N/A</td>
+                <td>Under maintenance</td>
+            </tr>
+            <tr>
+                <td>Water Slides</td>
+                <td>Yes</td>
+                <td>11:00 AM - 5:30 PM</td>
+                <td>Height restrictions apply</td>
+            </tr>
+            <tr>
+                <td>Magic Bike</td>
+                <td>Yes</td>
+                <td>12:00 PM - 8:00 PM</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Kids' Splash Zone</td>
+                <td>Yes</td>
+                <td>10:00 AM - 6:00 PM</td>
+                <td>Supervision required</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
