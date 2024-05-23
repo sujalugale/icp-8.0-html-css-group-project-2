@@ -12,10 +12,10 @@ body {
     background-color: hsl(188, 45%, 86%);
   }
   .heading h1 {
-    color: rgb(167, 29, 29);
+    color:#1E0342;
     font-size: 55px;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
   }
   .container {
     display: flex;
@@ -102,7 +102,7 @@ body {
       width: 100%;
     }
   }
-  /*Start team */
+ 
   section {
     padding: 50px 8%;
   }
@@ -172,4 +172,3 @@ body {
     }
   }
   
-  /*End team */
