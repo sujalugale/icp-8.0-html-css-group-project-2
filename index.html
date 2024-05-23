@@ -5,79 +5,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
-    <link
-    href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-    rel="stylesheet"
-  />
- <link rel="stylesheet" href="./css/style.css">
-  <link
-    rel="stylesheet"
-    href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-  />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
     <style>
-        a{
+        a {
             text-decoration: none;
             color: black;
         }
+
         body {
 
             padding: 0%;
             margin: 0%;
         }
 
-        .header-container {
-            background-color: white;
-            height: 50px;         
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-        }
-
         .offer-info-container {
-            height: 330px;
-            width: 100%;
-            margin: -4px;
+            padding: 10px;
             background-color: #c5dde0;
             display: flex;
             flex-direction: column;
             align-items: center;
 
         }
-
-        .header-img {
-            height: 70px;
-          
-            margin-left: 60px;
-            margin-top: -10px;
-            margin-bottom: 5px;
-        }
-
         .college-id-offer-img {
             width: 100%;
-            margin-top: 20px;
-
-
+            margin-top: 60px;
         }
-
-        .waterpark-page {
-            margin-left: 100px;
-
-        }
-
-        .amusment-page {
-            margin-left: 80px;
-        }
-
-        .tickets-page {
-            margin-left: 80px;
-        }
-
-        .offers-page {
-            margin-left: 80px;
-        }
-
         .btn {
-            margin-left: 50px;
+            margin: 0 20px;
             background-color: #0e4379;
             color: white;
             border-radius: 6px;
@@ -85,7 +41,6 @@
             border: none;
             font-size: large;
         }
-
         .div-btn {
             margin-top: 45px;
             background-color: #0e4379;
@@ -96,225 +51,125 @@
             font-size: large;
 
         }
-        .div-btn2{
-            margin-top: -1px;
+
+        .div-btn2 {
+            margin: 10px
         }
 
         .p1 {
-           font-size: 20px;
-           margin-top: 13px;
+            font-size: 20px;
+            margin-top: 13px;
         }
-        .p2{
+
+        .p2 {
             font-size: xx-large;
-            font-weight:bolder;
+            font-weight: bolder;
             margin-top: -20px;
         }
-        .p3{
-            margin-top: -10px;
-        }
-               
-        @media (max-width: 767.98px) 
-        {
-            
-        
-        .offer-info-container {
-            height: 330px;
-            width: 101%;
-            margin: -4px;
-            background-color: #c5dde0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
 
-        }
-
-       
-        .college-id-offer-img {
-            width: 100%;
-            margin-top: 35px;
-
-        }
-
-        .waterpark-page {
-            display: none;
-
-        }
-
-        .amusment-page {
-            display: none;
-        }
-
-        .tickets-page {
-           display: none;
-        }
-
-        .offers-page {
-            display: none;
-        }
-
-        .btn {
-            margin-left: 130px;
-            background-color: #0e4379;
-            color: white;
-            border-radius: 6px;
-            padding: 12px 20px;
-            border: none;
-            font-size: large;
-        }
-
-        .div-btn {
-            margin-top: 45px;
-            background-color: #0e4379;
-            color: white;
-            border-radius: 6px;
-            padding: 12px 30px;
-            border: none;
-            font-size: large;
-
-        }
-        .div-btn2{
-            margin-top: -1px;
-        }
-
-        .p1 {
-           font-size: 20px;
-           margin-top: 13px;
-        }
-        .p2{
-            font-size: xx-large;
-            font-weight:bolder;
-            margin-top: -20px;
-        }
-        .p3{
+        .p3 {
             margin-top: -10px;
         }
        
 
-        }
-
-        .offer-steps-container{
-            width: 100%;
-            height: 270px;
-            background-color:#0e4379;
-            display: flex;
-            flex-direction: column;
-            align-items:center;
-            color: white;
-            justify-content: space-around;
-            
-        }
-        .card-container-p{
-            font-size: 25px;
-            
-            margin-top: -50px;
-        }
-        .card-container-1{
-            height: 150px;
-            width: 550px;
-            background-color: white;
-            border-radius: 25px;
-            
-
-        }
-        .cards-container{
-           
-            width: 100%;
-            margin-top: -100px;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-        }
-        .card-img{
+        .card-img {
             height: 140px;
             width: 130px;
             border-radius: 20px;
             margin-left: 5px;
             margin-top: 5px;
         }
-        .card-p1{
-        color: black;
-        margin-top:-130px ;
-        margin-left:170px ;
-        font-size: 30px;
-        background-color: red;
-        width: 18%;
-    }
-    .card-p2{
-        margin-left: 160px;
-        margin-top: -15px;
-        color: black;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: bold;
-    }
-    .card-p3{
-        color: black;
-        margin-left: 160px;
-        margin-top: -10px;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-        
+
+        .main-container-offer
+        {
+            background-color: #0e4379;
+            margin: -20px;
+        }
+        .main-container-offer h2{
+            text-align: center;
+            padding: 10px;
+            color: #fff;
+        }
+        .offer-steps {
+            
+            padding: 20PX;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .offer-steps .card {
+            background-color: #fff;
+            width: 500px;
+            margin: 10px;
+            border-radius: 20PX;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            padding: 20px;
+        }
+
+        .offer-steps .card .carddetail {
+            padding-left: 20px;
+        }
     </style>
 </head>
 
 <body>
-
-    <div >
-       
         <header class="header">
             <a href="./index.html">
-                <img  src="./images/header-img.png" alt="header image" class="header-img1">
+                <img src="./images/header-img.png" alt="header image" class="header-img1">
             </a>
             <input type="checkbox" id="check" />
             <label for="check" class="menu-bar">
-              <i class="bx bx-menu" id="menu-icon"></i>
-              <i class="bx bx-x" id="close-icon"></i>
+                <i class="bx bx-menu" id="menu-icon"></i>
+                <i class="bx bx-x" id="close-icon"></i>
             </label>
 
-       
-        <nav class="navbar">
-            <a href="#" class="waterpark-page">WATERPARK</a>
-            <a href="#" class="amusment-page">AMUSEMENT PARK</a>
-            <a href="#" class="tickets-page">TICKETS</a>
-            <a href="#" class="offers-page">OFFERS</a>
-            <button class="btn">BOOK</button>
-            
-          </nav>
-         
-          </header>
 
-       
+            <nav class="navbar">
+                <a href="#">WATERPARK</a>
+                <a href="#">ABOUT US</a>
+                <a href="#">AMUSEMENT PARK</a>
+                <a href="#">TICKETS</a>
+                <a href="#">OFFERS</a>
+                <button class="btn">BOOK</button>
+            </nav>
+        </header>
 
-    </div>
     <img src="./images/College-Id-Offer.jpg" class="college-id-offer-img" />
     <div class="offer-info-container">
         <button class="div-btn">👉🏻 BOOK NOW</button>
         <h6 class="p1">Attention College Students: Are you ready to save big?</h6>
-        <h1 class="p2">COLLEGE  ID  OFFER</h1>
-        <p class="p3">Dive into a day of thrilling adventures and epic fun with our exclusive College ID Offer. Enjoy a 20% discount and create unforgettable memories with</p>
+        <h1 class="p2">COLLEGE ID OFFER</h1>
+        <p class="p3">Dive into a day of thrilling adventures and epic fun with our exclusive College ID Offer. Enjoy a
+            20% discount and create unforgettable memories with</p>
         <p class="p3">your friends at Wet’nJoy!</p>
         <button class="div-btn div-btn2">👉🏻 BOOK NOW</button>
     </div>
 
-    <div class="offer-steps-container">
-        <p class="card-container-p">HOW TO AVAIL THE OFFER</p>
-
-     <div class="cards-container">
-    <div class="card-container-1">
-        <img src="./images/card-1.jpg" class="card-img" />
-        <h3  class="card-p1">STEP 1</h3>
-        <p class="card-p2">ONLINE / OFFLINE BOOKING</p>
-        <p class="card-p3">Book your tickets on our official website or at the ticketing counter at the park</p>
-        
-
-    </div>
-    <div class="card-container-1">
-        <img src="./images/card-2.jpg" class="card-img" />
-        <h3  class="card-p1">STEP 2</h3>
-        <p class="card-p2">COLLEGE ID</p>
-        <p class="card-p3">Bring your valid College ID during your visit and present it at the ticketing counter</p>
-
-    </div>
-    </div>
+    <div class="main-container-offer">
+        <h2>HOW TO AVAIL THE OFFER</h2>
+        <div class="offer-steps">
+            <div class="card">
+                <img src="./images/card-1.jpg" class="card-img" />
+                <div class="carddetail">
+                    <h3 class="">STEP 1</h3>
+                    <p class="">ONLINE / OFFLINE BOOKING</p>
+                    <p class="">Book your tickets on our official website or at the ticketing counter at the park</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/card-2.jpg" class="card-img" />
+                <div class="carddetail">
+                    <h3 class="">STEP 1</h3>
+                    <p class="">COLLEGE ID</p>
+                    <p class="">Bring your valid College ID during your visit and present it at the ticketing counter</p>
+                </div>
+            </div>
+        </div>
     </div>
 
 </body>
