@@ -1,14 +1,4 @@
-.mdiv{
-    background-color:rgb(8, 109, 217); 
-    width: 300px; 
-    height: 300px;
-      padding: 10px; 
-      margin-left: 50px;
-      border-radius: 30px;
-      margin-top: 50px;
-      box-shadow: 0px 10px 10px 0px blue;
-      
-}
+
 .btn{
     height: 40px;
     width: 130px;
@@ -28,7 +18,7 @@
     background-color: darkblue;
 }
 body{
-    background-color: skyblue;
+    background-color: #9bdfe8;
 }
 .h{
     text-align: center;
