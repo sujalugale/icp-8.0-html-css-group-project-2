@@ -20,4 +20,10 @@ header {
   nav ul li a:hover {
     color: #ffc107;
   }
+  img {
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+  }
   
