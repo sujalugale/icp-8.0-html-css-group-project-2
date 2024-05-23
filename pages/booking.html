@@ -3,9 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./../css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Booking</title>
+    <style>
+        .waterpark-page {
+    margin-left: 100px;
+
+}
+
+.amusment-page {
+    margin-left: 80px;
+}
+
+.tickets-page {
+    margin-left: 80px;
+}
+
+.offers-page {
+    margin-left: 80px;
+}
+
+.btn {
+    margin-left: 50px;
+    background-color: #0e4379;
+    color: white;
+    border-radius: 6px;
+    padding: 12px 20px;
+    border: none;
+    font-size: large;
+}
+body {
+            background-image: url('./../images/booking_bg.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            padding: 0%;
+            margin: 0%;
+        }
+       
+        .sec{
+            background-color: rgb(0, 0, 0);
+            background-color: rgba(0, 0, 0, .4);
+            border-radius: 20px;
+            color: white;
+            margin-top: 150px;
+            margin-left: 300px;
+            margin-right: 300px;
+            padding-bottom: 100px;
+            padding-top: 50px;
+            text-align: center;
+        }
+        .heading{
+            margin-top: 0px;
+            margin-bottom: 50px;
+        }
+
+
+    </style>
 </head>
 <body>
-    
+    <div >
+     
+        <header class="header">
+            <a href="./index.html">
+                <img  src="./../images/header-img.png" alt="header image" class="header-img1">
+            </a>
+            <input type="checkbox" id="check" />
+            <label for="check" class="menu-bar">
+              <i class="bx bx-menu" id="menu-icon"></i>
+              <i class="bx bx-x" id="close-icon"></i>
+            </label>
+  
+       
+        <nav class="navbar">
+            <a href="./../waterpark.html" class="waterpark-page">WATERPARK</a>
+            <a href="./amusement.html" class="amusment-page">AMUSEMENT PARK</a>
+            <a href="./ticket.html" class="tickets-page">TICKETS</a>
+            <a href="./offers.html" class="offers-page">OFFERS</a>
+            <button class="btn">BOOK</button>
+          </nav>
+          </header>
+    </div>
+    <section class="sec">
+        <h3 class="heading">Booking Form</h3>
+        <div class="m-4">
+            <form>
+                <div class="row m-3 mt-4">
+                    <label for="name" class="col-sm-3 fs-5 col-form-label"> Enter Name:</label>
+                    <div class="col-sm-9">
+                        <input type="text" name="sid" class="form-control" id="name"
+                            placeholder="Enter Your Name" required>
+                    </div>
+                </div>
+                <div class="row m-3 mt-4">
+                    <label for="date" class="col-sm-3 fs-5 col-form-label">Enter Date:
+                    </label>
+                    <div class="col-sm-9">
+                        <input type="date" name="sname" class="form-control" id="date"
+                            placeholder="Enter Date" required>
+                    </div>
+                </div>
+   </form></div></section>
 </body>
 </html>

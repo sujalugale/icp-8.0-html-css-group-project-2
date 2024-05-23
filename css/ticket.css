@@ -9,20 +9,8 @@
     text-align: center; 
     margin:30px 10px 10px 60px;
     font-size: 20px;
-    background-color:rgb(91, 189, 228); 
+    background-color: #9AC8CD; 
     border: 2px solid black;
-}
-.btn{
-    height: 40px;
-    width: 130px;
-    margin-left: 550px;
-    margin-top: 10px;
-    border: solid black 2px;
-    border-radius: 30px;
-    padding: 10px;
-    font-size: 15px;
-    color: white;
-    background-color: blue;
 }
 .btn:hover{
     font-size: 18px;
@@ -30,15 +18,16 @@
 }
 .h{
     text-align: center;
-     color:blue;
+     color:#0e4379;
       margin-left:300px; 
+      margin-top: 200px;
       display: inline; 
       font-size: 50px;
 }
 .th{
     font-size: 20px;
      color:white;
-      background-color: blue;
+      background-color: #0e4379;
        padding: 10px;
 }
 .p{
@@ -46,13 +35,13 @@
 }
 .div{
     text-align: center;
-    background-color:rgb(91, 189, 228); 
+    background-color: #9AC8CD; 
          font-size: 20px;
       font-style: oblique ; 
       margin:50px 250px 10px 250px;
       border-radius: 50px;
       padding: 20px;
-      box-shadow: 0px 10px 10px 10px rgb(25, 161, 215);
+      box-shadow: 0px 10px 10px 10px  #8ecad1;
 }
 .img{
     width: 100px;
@@ -61,7 +50,7 @@
     right: 10px;
 }
 .mdiv{
-    background-color:rgb(91, 189, 228); 
+    background-color: #9AC8CD; 
     width: 300px; 
     height: 300px;
       padding: 20px; 
@@ -69,10 +58,51 @@
       border-radius: 30px;
       margin-top: 40px;
       margin-bottom: 50px;
-      box-shadow: 1px 10px 10px 0px rgb(25, 161, 215);
+      box-shadow: 1px 10px 10px 0px  #8ecad1;
       
 }
 
 body{
             background-color: hsl(188, 45%, 86%);
+}
+.header-img {
+    height: 70px;
+  
+    margin-left: 60px;
+    margin-top: -10px;
+    margin-bottom: 5px;
+}
+
+.college-id-offer-img {
+    width: 100%;
+    margin-top: 20px;
+
+
+}
+
+.waterpark-page {
+    margin-left: 100px;
+
+}
+
+.amusment-page {
+    margin-left: 80px;
+}
+
+.tickets-page {
+    margin-left: 80px;
+}
+
+.offers-page {
+    margin-left: 80px;
+}
+
+.btn {
+    margin-left: 50px;
+    background-color: #0e4379;
+    color: white;
+    border-radius: 6px;
+    padding: 12px 20px;
+    border: none;
+    font-size: large;
 }
