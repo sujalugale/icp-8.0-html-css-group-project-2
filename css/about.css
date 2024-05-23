@@ -69,6 +69,33 @@ body {
     height: auto;
     border-radius: 10px;
   }
+  .waterpark-page {
+    margin-left: 100px;
+
+}
+
+.amusment-page {
+    margin-left: 80px;
+}
+
+.tickets-page {
+    margin-left: 80px;
+}
+
+.offers-page {
+    margin-left: 80px;
+}
+
+.btn {
+    margin-left: 50px;
+    background-color: #0e4379;
+    color: white;
+    border-radius: 6px;
+    padding: 12px 20px;
+    border: none;
+    font-size: large;
+}
+
   @media screen and (max-width: 768px) {
     .heading h1 {
       font-size: 45px;
@@ -107,6 +134,7 @@ body {
     padding: 50px 8%;
   }
   .team {
+    background-color: #9AC8CD;
     margin-top: 0px;
   }
   .team-title h1 {
