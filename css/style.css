@@ -110,3 +110,59 @@ a {
     margin: 10px auto;
   }
 }
+
+
+
+.footer {
+
+
+  background-color: #11baf3;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+.footer-div-1 {
+
+
+  margin-left: 5%;
+
+
+}
+
+.footer-img {
+  height: 90px;
+  margin-left: 10%;
+  margin-top: 3%;
+}
+
+.footer-p {
+  margin-left: 10%;
+  color: #fff;
+
+}
+
+
+.footer-div-2-p {
+
+  font-size: 18px;
+  color: blue
+}
+
+.footer-div-2-a {
+  color: white;
+
+}
+
+.footer-contact-p {
+  margin-left: 27%;
+  font-size: 20px;
+  font-weight: 400;
+  color: blue;
+}
+
+.footer-contact-a {
+  color: #fff;
+}
