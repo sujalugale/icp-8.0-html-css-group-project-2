@@ -55,7 +55,7 @@ body {
             margin-top: 0px;
             margin-bottom: 50px;
         }
-        .btn2{
+        .b{
            margin-right: 80px;margin-top: 10px;
             background-color: #0e4379;
             color: white;
@@ -64,4 +64,27 @@ body {
             border: none;
             font-size: large;
         }
-      
+        .m{
+            padding: 0px;
+            font-size: 15px;
+            display: none;
+        }
+        @media only screen and (max-width: 768px) {
+            .waterpark-page,
+            .amusement-page,
+            .tickets-page,
+            .offers-page {
+                margin-left: 20px;
+            }
+        
+            .btn,
+            .b {
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+        
+            .sec {
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+        }
