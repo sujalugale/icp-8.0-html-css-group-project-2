@@ -59,8 +59,12 @@
       margin-top: 40px;
       margin-bottom: 50px;
       box-shadow: 1px 10px 10px 0px  #8ecad1;
-      
 }
+.m1div{
+    display: flex; 
+    align-items: center;
+}
+    
 
 body{
             background-color: hsl(188, 45%, 86%);
@@ -106,3 +110,40 @@ body{
     border: none;
     font-size: large;
 }
+@media screen and (max-width: 768px) {
+    .table {
+        width: 100%; 
+        margin: 10px;
+    }
+
+    .h {
+        margin-left: 0;
+    }
+
+    .div {
+        margin: 10px; 
+    }
+
+    .img {
+        display: none; 
+    }
+    .mdiv {
+        width: 100%; 
+        margin-left: 0; 
+        margin-right: 0; 
+        border-radius: 10px;
+    }
+
+    .header{
+        width: 98%;
+       height: 40px;
+    }
+    .menu-bar {
+      margin-top: 20px;
+  }
+  .btn{
+    display: block;
+    margin: 10px auto;
+  }
+  }
+  
