@@ -21,15 +21,7 @@
     margin-left: 80px;
 }
 
-.btn {
-    margin-left: 50px;
-    background-color: #0e4379;
-    color: white;
-    border-radius: 6px;
-    padding: 12px 20px;
-    border: none;
-    font-size: large;
-}
+
 body {
             background-image: url('./../images/booking_bg.jpg');
             background-repeat: no-repeat;
@@ -55,20 +47,17 @@ body {
             margin-top: 0px;
             margin-bottom: 50px;
         }
-        .b{
-           margin-right: 80px;margin-top: 10px;
-            background-color: #0e4379;
-            color: white;
-            border-radius: 6px;
-            padding: 12px 20px;
-            border: none;
-            font-size: large;
-        }
-        .m{
-            padding: 0px;
-            font-size: 15px;
-            display: none;
-        }
+        .btn1{
+            margin-right: 90px;
+            margin-top: 20px;
+             background-color: #0e4379;
+             color: white;
+             border-radius: 6px;
+             padding: 12px 20px;
+             border: none;
+             font-size: large;
+         }
+
         @media only screen and (max-width: 768px) {
             .waterpark-page,
             .amusement-page,
