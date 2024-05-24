@@ -1,3 +1,9 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .waterpark-page {
     margin-left: 100px;
 
@@ -49,16 +55,13 @@ body {
             margin-top: 0px;
             margin-bottom: 50px;
         }
-      .btn1{
-        margin-top:  50px;
-        margin-right: 150px;
-        margin-bottom: 20px;
+        .btn2{
+           margin-right: 80px;margin-top: 10px;
             background-color: #0e4379;
             color: white;
             border-radius: 6px;
             padding: 12px 20px;
             border: none;
             font-size: large;
-      }
-
-   
+        }
+      
