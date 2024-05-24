@@ -1,6 +1,6 @@
-# WENTNJOY WATERPARK WEBSITE
+# WENTNJOY WATERPARK AND AMUSEMENT PARK WEBSITE
 
-This project is a Wentnjoy waterpark website  developed using HTML and CSS.
+This project is a Wentnjoy waterpark and Amusement park website  developed using HTML and CSS.
 This is a open-source project.
 
 ![Screenshot](./images/readme.md%20images/1.png)
