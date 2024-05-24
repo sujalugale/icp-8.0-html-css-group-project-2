@@ -19,9 +19,9 @@
 .h{
     text-align: center;
      color:#0e4379;
-      margin-left:300px; 
-      margin-top: 200px;
-      display: inline; 
+     
+      margin-top: 100px;
+   
       font-size: 50px;
 }
 .th{
@@ -102,6 +102,16 @@ body{
 }
 
 .btn {
+    margin: 0 20px;
+    background-color: #0e4379;
+    color: white;
+    border-radius: 6px;
+    padding: 12px 20px;
+    border: none;
+    font-size: large;
+}
+
+.btn1 {
     margin-left: 50px;
     background-color: #0e4379;
     color: white;
@@ -110,40 +120,3 @@ body{
     border: none;
     font-size: large;
 }
-@media screen and (max-width: 768px) {
-    .table {
-        width: 100%; 
-        margin: 10px;
-    }
-
-    .h {
-        margin-left: 0;
-    }
-
-    .div {
-        margin: 10px; 
-    }
-
-    .img {
-        display: none; 
-    }
-    .mdiv {
-        width: 100%; 
-        margin-left: 0; 
-        margin-right: 0; 
-        border-radius: 10px;
-    }
-
-    .header{
-        width: 98%;
-       height: 40px;
-    }
-    .menu-bar {
-      margin-top: 20px;
-  }
-  .btn{
-    display: block;
-    margin: 10px auto;
-  }
-  }
-  
