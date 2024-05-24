@@ -9,7 +9,7 @@
     text-align: center; 
     margin:30px 10px 10px 60px;
     font-size: 20px;
-    background-color: #9AC8CD; 
+    background-color: white; 
     border: 2px solid black;
 }
 .h{
@@ -78,9 +78,7 @@ body{
     border: none;
     font-size: large;
 }
-.m{
-    display: none;
-}
+
 @media only screen and (max-width: 768px) {
     .table {
         margin: 10px;
