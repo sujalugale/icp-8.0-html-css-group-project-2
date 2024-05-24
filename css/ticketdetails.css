@@ -55,14 +55,13 @@ body{
 }
 @media (max-width: 600px) {
     .btn {
-        margin-left: 0; /* Adjust margin-left for smaller screens */
-        width: 100%; /* Make button full width on smaller screens */
+        margin-left: 0; 
+        width: 100%;
     }
-
     .waterpark-page,
     .amusement-page,
     .tickets-page,
     .offers-page {
-        margin-left: 0; /* Adjust margin-left for smaller screens */
+        margin-left: 0; 
     }
 }
