@@ -3,7 +3,9 @@
 This project is a Wentnjoy waterpark website  developed using HTML and CSS.
 This is a open-source project.
 
-![Screenshot](./png/Screenshot.png)
+![Screenshot](./images/readme.md%20images/1.png)
+![Screenshot](./images/readme.md%20images/2.png)
+![Screenshot](./images/readme.md%20images/3.png)
 
 
 ## Installation
