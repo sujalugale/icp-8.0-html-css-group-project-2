@@ -134,5 +134,16 @@ body{
         border-radius: 10px;
     }
 
-
-}
+    .header{
+        width: 98%;
+       height: 40px;
+    }
+    .menu-bar {
+      margin-top: 20px;
+  }
+  .btn{
+    display: block;
+    margin: 10px auto;
+  }
+  }
+  
