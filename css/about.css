@@ -116,10 +116,7 @@ body {
     height: 400px;
     text-align: center;
   }
-  .team-card:hover {
-    transform: translateY(-10px);
-    transition: 0.5s;
-  }
+  
   .team-img img {
     width: 200px;
     height: 200px;
