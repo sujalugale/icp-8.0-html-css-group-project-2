@@ -38,7 +38,76 @@ img{
         }
 
 
+        .waterpark-page {
+            margin-left: 100px;
 
+        }
+
+        .amusment-page {
+            margin-left: 80px;
+        }
+
+        .tickets-page {
+            margin-left: 80px;
+        }
+
+        .offers-page {
+            margin-left: 80px;
+        }
+
+        .btn {
+            margin-left: 50px;
+            background-color: #0e4379;
+            color: white;
+            border-radius: 6px;
+            padding: 12px 20px;
+            border: none;
+            font-size: large;
+        }
+ .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 98.8%;
+  padding: 10px 10px;
+  
+  background-color: #fdfeffe0;
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  
+}
+ .header-img1 {
+  height: 50px;
+  width: 55%;
+  margin-left: 10px;
+  margin-top: 0px;
+ 
+}
+ a {
+  text-decoration: none;
+  color: black;
+}
+ .navbar a {
+  font-size: 25px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 520;
+  margin-left: 40px;
+  
+}
+ #check {
+  display: none;
+}
+.menu-bar {
+  font-size: 50px;
+  color: #eeebeb;
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+  display: none;
+}
    
     
    
