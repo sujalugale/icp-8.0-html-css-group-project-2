@@ -1,66 +1,126 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  header {
-    background-color: #00aaff;
-    padding: 20px;
-    text-align: center;
-    color: #fff;
-  }
-  
-  nav {
-    background-color: #333;
-    padding: 10px;
-  }
-  
-  nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  nav ul li {
-    display: inline;
-  }
-  
-  nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    padding: 10px;
-  }
-  
-  section {
-    padding: 20px;
-  }
-  
-  footer {
-    background-color: #333;
-    padding: 10px;
-    text-align: center;
-    color: #fff;
-  }
-  .container {
-    height: 290px;
-    width: 1020px;
-    background-color: #0cc0df;
-    padding: 5px;
-    border-radius: 5px;
-  }
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
 
-  .btn{
-    background-color: tomato;
-    font-size: 30px;
-    border: none;
+header {
+  background-color: #00aaff;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+ .waterpark-page {
+  margin-left: 100px;
+
+}
+
+.amusment-page {
+  margin-left: 80px;
+}
+
+.tickets-page {
+  margin-left: 80px;
+}
+
+.offers-page {
+  margin-left: 80px;
+}
+
+.btn {
+  margin-left: 50px;
+  background-color: #0e4379;
+  color: white;
+  border-radius: 6px;
+  padding: 12px 20px;
+  border: none;
+  font-size: large;
+}
+.header {
+/* position: fixed;
+z-index: 0.7%; 
+width: 98.8%;
+padding: 10px 10px;
+
+background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+display: flex;
+justify-content:space-between;
+align-items: center; */
+justify-content:space-between;
+display: flex;
+
+}
+.header-img1 {
+
+width: 60%;
+
+margin-left: 10px;
+margin-top: 0px;
+
+}
+a {
+text-decoration: none;
+color: black;
+}
+.navbar a {
+font-size: 25px;
+color: #fff;
+text-decoration: none;
+font-weight: 520;
+margin-left: 40px;
+
+}
+#check {
+display: none;
+}
+.menu-bar {
+font-size: 50px;
+color: #fff;
+position: absolute;
+right: 10px;
+cursor: pointer;
+display: none;
+}
 
 
-  }
+section {
+  padding: 20px;
+}
+
+footer {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+}
+.container {
+  height: 295px;
+  width: 100%px;
+  background-color: #0cc0df;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.btn{
+  background-color: tomato;
+  font-size: 30px;
+  border: none;
+  
+
+
+}
 body
 {
-   background-color:gray;
+ background-color:white;
 }
-  
 
-  
+
+.div_1{
+top: 80px;
+
+} 
+.image{
+width:100%;
+}
