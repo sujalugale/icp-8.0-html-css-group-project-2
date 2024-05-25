@@ -1,0 +1,79 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.waterpark-page {
+    margin-left: 100px;
+
+}
+
+.amusment-page {
+    margin-left: 80px;
+}
+
+.tickets-page {
+    margin-left: 80px;
+}
+
+.offers-page {
+    margin-left: 80px;
+}
+
+
+body {
+            background-image: url('./../images/booking_bg.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            padding: 0%;
+            margin: 0%;
+        }
+       
+        .sec{
+            background-color: rgb(0, 0, 0);
+            background-color: rgba(0, 0, 0, .4);
+            border-radius: 20px;
+            color: white;
+            margin-top: 150px;
+            margin-left: 300px;
+            margin-right: 300px;
+            padding-bottom: 50px;
+            padding-top: 100px;
+            text-align: center;
+        }
+        .heading{
+            margin-top: 0px;
+            margin-bottom: 50px;
+        }
+        .btn1{
+            margin-right: 90px;
+            margin-top: 20px;
+             background-color: #0e4379;
+             color: white;
+             border-radius: 6px;
+             padding: 12px 20px;
+             border: none;
+             font-size: large;
+         }
+
+        @media only screen and (max-width: 768px) {
+            .waterpark-page,
+            .amusement-page,
+            .tickets-page,
+            .offers-page {
+                margin-left: 20px;
+            }
+        
+            .btn,
+            .b {
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+        
+            .sec {
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+        }

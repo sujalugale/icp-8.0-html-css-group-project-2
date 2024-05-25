@@ -1,6 +1,100 @@
-body{
-    background-color: yellow;
+a {
+    text-decoration: none;
+    color: black;
 }
-.header{
-    color: rgb(237, 141, 14);
+
+body {
+
+    padding: 0%;
+    margin: 0%;
+}
+
+.offer-info-container {
+    margin-top: -4px;
+    padding: 10px;
+    background-color: #c5dde0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.college-id-offer-img {
+    width: 100%;
+    margin-top: 60px;
+}
+
+.div-btn {
+    margin-top: 45px;
+    background-color: #0e4379;
+    color: white;
+    border-radius: 6px;
+    padding: 12px 30px;
+    border: none;
+    font-size: large;
+
+}
+
+.div-btn2 {
+    margin: 10px
+}
+
+.p1 {
+    font-size: 20px;
+    margin-top: 13px;
+}
+
+.p2 {
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-top: -20px;
+}
+
+.p3 {
+    margin-top: -10px;
+}
+
+
+.card-img {
+    height: 140px;
+    width: 130px;
+    border-radius: 20px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.main-container-offer {
+    background-color: #0e4379;
+    margin-top: -20px;
+}
+
+.main-container-offer h2 {
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+}
+
+.offer-steps {
+
+    padding: 20PX;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.offer-steps .card {
+    background-color: #fff;
+    width: 500px;
+    margin: 10px;
+    border-radius: 20PX;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 20px;
+}
+
+.offer-steps .card .carddetail {
+    padding-left: 20px;
 }
