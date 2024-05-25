@@ -5,231 +5,94 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
-    <link
-    href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-    rel="stylesheet"
-  />
- <link rel="stylesheet" href="./css/style.css">
-  <link
-    rel="stylesheet"
-    href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-  />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
     <style>
-        a{
-            text-decoration: none;
-            color: black;
-        }
-        body {
-
-            padding: 0%;
-            margin: 0%;
-        }
-
-        .header-container {
-            background-color: white;
-            height: 50px;         
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-        }
-
-        .offer-info-container {
-            height: 330px;
-            width: 100%;
-            margin: -4px;
-            background-color: #c5dde0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-
-        }
-
-        .header-img {
-            height: 70px;
-          
-            margin-left: 60px;
-            margin-top: -10px;
-            margin-bottom: 5px;
-        }
-
-        .college-id-offer-img {
-            width: 100%;
-            margin-top: 20px;
-
-
-        }
-
-        .waterpark-page {
-            margin-left: 100px;
-
-        }
-
-        .amusment-page {
-            margin-left: 80px;
-        }
-
-        .tickets-page {
-            margin-left: 80px;
-        }
-
-        .offers-page {
-            margin-left: 80px;
-        }
-
-        .btn {
-            margin-left: 50px;
-            background-color: #0e4379;
-            color: white;
-            border-radius: 6px;
-            padding: 12px 20px;
-            border: none;
-            font-size: large;
-        }
-
-        .div-btn {
-            margin-top: 45px;
-            background-color: #0e4379;
-            color: white;
-            border-radius: 6px;
-            padding: 12px 30px;
-            border: none;
-            font-size: large;
-
-        }
-        .div-btn2{
-            margin-top: -1px;
-        }
-
-        .p1 {
-           font-size: 20px;
-           margin-top: 13px;
-        }
-        .p2{
-            font-size: xx-large;
-            font-weight:bolder;
-            margin-top: -20px;
-        }
-        .p3{
-            margin-top: -10px;
-        }
-               
-        @media (max-width: 767.98px) 
-        {
-            
-        
-        .offer-info-container {
-            height: 330px;
-            width: 101%;
-            margin: -4px;
-            background-color: #c5dde0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-
-        }
-
        
-        .college-id-offer-img {
-            width: 100%;
-            margin-top: 35px;
-
-        }
-
-        .waterpark-page {
-            display: none;
-
-        }
-
-        .amusment-page {
-            display: none;
-        }
-
-        .tickets-page {
-           display: none;
-        }
-
-        .offers-page {
-            display: none;
-        }
-
-        .btn {
-            margin-left: 130px;
-            background-color: #0e4379;
-            color: white;
-            border-radius: 6px;
-            padding: 12px 20px;
-            border: none;
-            font-size: large;
-        }
-
-        .div-btn {
-            margin-top: 45px;
-            background-color: #0e4379;
-            color: white;
-            border-radius: 6px;
-            padding: 12px 30px;
-            border: none;
-            font-size: large;
-
-        }
-        .div-btn2{
-            margin-top: -1px;
-        }
-
-        .p1 {
-           font-size: 20px;
-           margin-top: 13px;
-        }
-        .p2{
-            font-size: xx-large;
-            font-weight:bolder;
-            margin-top: -20px;
-        }
-        .p3{
-            margin-top: -10px;
-        }
-
-        }
     </style>
 </head>
 
 <body>
+    <header class="header">
+        <a href="./index.html">
+            <img src="./images/header-img.png" alt="header image" class="header-img1">
+        </a>
+        <input type="checkbox" id="check" />
+        <label for="check" class="menu-bar">
+            <i class="bx bx-menu" id="menu-icon"></i>
+            <i class="bx bx-x" id="close-icon"></i>
+        </label>
 
-    <div >
-       
-        <header class="header">
-            <a href="./index.html">
-                <img  src="./images/header-img.png" alt="header image" class="header-img1">
-            </a>
-            <input type="checkbox" id="check" />
-            <label for="check" class="menu-bar">
-              <i class="bx bx-menu" id="menu-icon"></i>
-              <i class="bx bx-x" id="close-icon"></i>
-            </label>
 
-       
         <nav class="navbar">
-            <a href="#" class="waterpark-page">WATERPARK</a>
-            <a href="#" class="amusment-page">AMUSEMENT PARK</a>
-            <a href="#" class="tickets-page">TICKETS</a>
-            <a href="#" class="offers-page">OFFERS</a>
-            <button class="btn">BOOK</button>
+            <a href="./pages/waterpark.html">WATERPARK</a>
             
-          </nav>
-         
-          </header>
+            <a href="./pages/amusement.html">AMUSEMENT PARK</a>
+            <a href="./pages/ticket.html">TICKETS</a>
+            <a href="./pages/offers.html">OFFERS</a>
+            <a href="./pages/about.html">ABOUT US</a>
+            <a href="./pages/booking.html"><button class="btn">BOOK</button></a>
+        </nav>
+    </header>
 
-       
-
-    </div>
     <img src="./images/College-Id-Offer.jpg" class="college-id-offer-img" />
     <div class="offer-info-container">
-        <button class="div-btn">👉🏻 BOOK NOW</button>
+        <a href="./pages/booking.html">  <button class="div-btn">👉🏻 BOOK NOW</button></a>
         <h6 class="p1">Attention College Students: Are you ready to save big?</h6>
-        <h1 class="p2">COLLEGE  ID  OFFER</h1>
-        <p class="p3">Dive into a day of thrilling adventures and epic fun with our exclusive College ID Offer. Enjoy a 20% discount and create unforgettable memories with</p>
+        <h1 class="p2">COLLEGE ID OFFER</h1>
+        <p class="p3">Dive into a day of thrilling adventures and epic fun with our exclusive College ID Offer. Enjoy a
+            20% discount and create unforgettable memories with</p>
         <p class="p3">your friends at Wet’nJoy!</p>
-        <button class="div-btn div-btn2">👉🏻 BOOK NOW</button>
+        <a href="./pages/booking.html"> <button class="div-btn div-btn2">👉🏻 BOOK NOW</button></a>
+    </div>
+
+    <div class="main-container-offer">
+        <h2>HOW TO AVAIL THE OFFER</h2>
+        <div class="offer-steps">
+            <div class="card">
+                <img src="./images/card-1.jpg" class="card-img" />
+                <div class="carddetail">
+                    <h3 class="">STEP 1</h3>
+                    <p class="">ONLINE / OFFLINE BOOKING</p>
+                    <p class="">Book your tickets on our official website or at the ticketing counter at the park</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/card-2.jpg" class="card-img" />
+                <div class="carddetail">
+                    <h3 class="">STEP 2</h3>
+                    <p class="">COLLEGE ID</p>
+                    <p class="">Bring your valid College ID during your visit and present it at the ticketing counter
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-div-1">
+            <img src="./images/header-img.png" alt="footer image" class="footer-img">
+            <p class="footer-p">Old Pune Mumbai Highway NH-4 Post-<br>Takve, Mundhaware, Maharashtra – <br>410405</p>
+        </div>
+        <div class="footer-div-2">
+            <p class="footer-div-2-p"> Quick Links</p>
+            <a href="./pages/booking.html" class="footer-div-2-a">Book Now</a><br><br>
+            <a href="./pages/offers.html" class="footer-div-2-a">Offers</a><br><br>
+            <a href="./pages/amusement.html" class="footer-div-2-a">Amusment Park</a><br><br>
+            <a href="./pages/waterpark.html" class="footer-div-2-a">Water Park</a><br><br>
+            <a href="./pages/ticket.html" class="footer-div-2-a">Ticktes</a><br><br>
+            <a href="./pages/about.html" class="footer-div-2-a">About us</a>
+        </div>
+        <div class="footer-contact">
+            <p class="footer-contact-p">Contact</p>
+            <a href="tel:9552956709" class="footer-contact-a"> 📞 +91 9552956709</a><br>
+            <a href="tel:9552956709" class="footer-contact-a"> 📞 +91 9011131239</a><br>
+            <a href="email:ugalesujal30@gnail.com" class="footer-contact-a">📧 sales@wetnjoy.in</a><br>
+            <a href="email:ugalesujal30@gnail.com" class="footer-contact-a">📧 sales@wetnjoy.com</a><br><br>
+
+
+        </div>
     </div>
 
 </body>
